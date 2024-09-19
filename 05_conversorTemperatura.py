@@ -1,3 +1,4 @@
+convertir =input("grados")
 fahren= float(input("Ingrese los grados fahrenhit para convertir a grados celsius"))
 #fahren= float(input("Ingrese los grados Fahrenheit para convertir a grados celsius"))
 
