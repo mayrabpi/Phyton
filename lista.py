@@ -25,6 +25,11 @@ mi_lista_1.clear()#borra la lista
 print(mi_lista_1)
 mi_lista_2=mi_lista.copy()#copia la lista
 print(mi_lista_2)
+print(mi_lista.index(2))#devuelve la posición del elemento 2
+
+lista=["hola mundo",3,4,"pepe"]
+lista[1:3]=["hola","pepe2"]
+print(lista)
 
 
 
