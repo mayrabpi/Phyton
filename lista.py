@@ -28,8 +28,42 @@ print(mi_lista_2)
 print(mi_lista.index(2))#devuelve la posición del elemento 2
 
 lista=["hola mundo",3,4,"pepe"]
-lista[1:3]=["hola","pepe2"]
+lista[1:3]=["hola","pepe2"]#cambia los elementos de la lista
 print(lista)
+lista2=[1,2,3]
+lista3=[0,1,2,3]
+print(3 in lista2 )
+print (lista2==lista3)
+for i in lista2:
+    print(i)
+
+y=[1,2,3,4,5]
+for index, i in enumerate(y):
+    print(index,i)
+
+frutas=["pera","uva"]
+for indice, i in enumerate(frutas):
+    print(indice,i)
+
+m=[5,9,10]
+n=["jazz","Rock","jent"]
+for i1,i2 in zip(n,m):
+       print(i1,i2)
+
+lista_1=[10,"Phyton",False,[4,5,6]]
+print(lista_1[0]+5)
+print(lista_1[1].upper())
+print(lista_1[2]or True)
+
+if "Phyton" in lista_1:
+     print("la palabra phyton esta en la lista")
+
+lista_1[3][0]=100
+print(mi_lista[3][1])
+
+
+
+
 
 
 
