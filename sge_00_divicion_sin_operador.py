@@ -8,3 +8,4 @@ while(i>=divisor):
     i-=divisor
     cociente+=1
 print("El cocienete de ", dividendo, "entre ", divisor, "es: ", cociente, "El resto es: " ,i)  
+
