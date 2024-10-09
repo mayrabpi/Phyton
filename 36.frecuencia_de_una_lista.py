@@ -8,7 +8,6 @@ for i in range(len(lista)):
     for j in range(len(lista)):
         if lista[i] == lista[j]:
             contador += 1
-    # Imprimir el resultado solo si es la primera aparición del número
     if lista.index(lista[i]) == i:
         print(lista[i]," . ", contador)
     
