@@ -15,3 +15,19 @@ while True:
         print("mayor, mayor")
     else:
         print("menor, menor")
+
+
+numero= random.randint(1,10)
+intentos=0
+
+while True:
+    intento= int(input("ingresa un numero"))
+    intentos+=1
+
+    if intento==numero:
+        print("adivinaste el numero")
+        break
+    elif intento<numero:
+        print("mayor")
+    else:
+        print("menor")

@@ -3,5 +3,5 @@ cuentaPares=0
 for i in range(len(numeros)):
     if i%2==0:
         cuentaPares += 1
-print(cuentaPares)
+print(f"hay {cuentaPares} pares en la lista")
 

@@ -9,3 +9,6 @@ print("Los números introducidos son: ", lista)
 
 print("El primer número introducido es: ", lista[0])
 print("El último número introducido es: ", lista[-1])
+
+
+    

@@ -9,4 +9,4 @@ for i in lista:
         negativos.append(i)
     else:
         positivos.append(i)
-print("Lista sin negativos: ", negativos," Lista positivos: ", positivos)
+print("Lista  negativos: ", negativos," Lista positivos: ", positivos)
