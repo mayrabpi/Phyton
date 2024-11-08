@@ -1,3 +1,4 @@
+"""
 tupla=(3,4)
 longitud_tupla =len(tupla)
 
@@ -34,7 +35,7 @@ for i in diccionario_1:
 
 for i,j in diccionario_1.items():#imprimir clave valor
     print(i,":",j)
-
+"""
 d={"a":1,"b":2,"c":3,"d":4}
 print(d.get("a"))
 print(d.get("d"))
@@ -42,11 +43,11 @@ print(d.get("d","no existe"))
 
 it =d.items()
 print(it)
-print(it)
+print()
 
 print(list(d))
 print(list(d)[0][0])
-
+print()
 k=d.keys()
 print(k)
 print(list(k))
@@ -66,3 +67,13 @@ d1={"a":1,"b":2}
 d2={"a":0,"d":400}
 d1.update(d2)
 print(d1)
+
+palabras = ["sol", "luna", "sol", "mar", "luna", "sol"]
+contador = {}
+for palabra in palabras:
+ if palabra in contador:
+  contador[palabra] += 1
+ else:
+  contador[palabra] = 1
+
+print(contador) # Resultado: {'sol': 3, 'luna': 2, 'mar': 1}"""

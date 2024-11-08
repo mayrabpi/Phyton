@@ -6,4 +6,4 @@ for i in lista:
       max=i
 
 print ("El mayor número de la lista ", lista," es: ", max)
-        
+help(lista)

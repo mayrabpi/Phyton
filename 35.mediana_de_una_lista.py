@@ -9,7 +9,7 @@ medianaImpar = lista[longitud//2]
 print(medianaImpar)
 
 if longitud%2==0:
-    medianaPar=lista[longitud//2]-1+lista[longitud//2]/2
+    medianaPar=lista[longitud//2]-1+lista[longitud//2]//2
     print(medianaPar)
 
 
