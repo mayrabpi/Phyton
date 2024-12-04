@@ -48,6 +48,7 @@ print()
 print(list(d))
 print(list(d)[0][0])
 print()
+
 k=d.keys()
 print(k)
 print(list(k))
