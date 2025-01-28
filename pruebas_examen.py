@@ -1,4 +1,4 @@
-'''
+
 numeros = {
     1: "one - uno",
     2: "two - dos",
@@ -24,7 +24,7 @@ for i in numeros.values():
     print(i)
 
 for i, (numero, traduccion) in enumerate(numeros.items()):
-    print(f"{i}. {numero}: {traduccion}")'''
+    print(f"{i}. {numero}: {traduccion}")
 
 lista=[1,2,3,4,5,6,7,8]
 print(lista[3:])
