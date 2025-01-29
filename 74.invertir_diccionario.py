@@ -10,8 +10,6 @@ def invertir_diccionario(diccionario):
 
     # Devolver el diccionario invertido
     return diccionario_invertido
-
-# Ejemplo de uso
 ciudades_codigos_postales = {
     "Madrid": 28001,
     "Barcelona": 28340,

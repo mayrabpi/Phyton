@@ -10,5 +10,5 @@ personas_edades = {
 # Calcular la suma de todas las edades
 suma_edades = sum(personas_edades.values())
 
-# Mostrar el resultado
+
 print("La suma de todas las edades es:", suma_edades)
