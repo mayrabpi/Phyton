@@ -18,8 +18,7 @@ ciudades_codigos_postales = {
     "Zaragoza": 50001
 }
 
-# Invertir el diccionario
 codigos_postales_ciudades = invertir_diccionario(ciudades_codigos_postales)
 
-# Imprimir el diccionario invertido
+
 print(codigos_postales_ciudades)
