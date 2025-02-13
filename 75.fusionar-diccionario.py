@@ -7,15 +7,21 @@ mates = {
     "Pepe":5,
     "Nuria":8
 }
-calificacionesCiencias={
+ciencias={
      "Mayra":6,
      "Victor":5,
      "Pepe":4,
      "Nuria":8
 }
-
-nuevoDiccionario={}
-
-for i,j in mates.items():
+#nuevo diccionario para almaccebar las clificaciones combinadas
+calificaciones_combinadas = {}
+#combina las calificacines de mates y ciencias
+for i in mates:
+    if i in ciencias:
+        calificaciones_combinadas[i]={"Matemáticas ": mates[i], 
+                                      "ciencias ":ciencias[i]}
+#muestra el nuevo diccionario con las calificaciones combinadas       
+for i,j in calificaciones_combinadas.items():
     print(i,j)
+
 

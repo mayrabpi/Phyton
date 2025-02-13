@@ -17,3 +17,4 @@ lista.pack(pady=10)
 
 boton_lista = tk.Button(ventana, text="Mostrar selección", command=mostrar_seleccion_lista)
 boton_lista.pack()
+ventana.mainloop()

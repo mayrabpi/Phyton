@@ -2,8 +2,8 @@ import tkinter as tk
 
 def mayor_menor():
     try:
-        num1 = float(entrada_numero1.get())
-        num2 = float(entrada_numero2.get())
+        num1 = int(entrada_numero1.get())
+        num2 = int(entrada_numero2.get())
         if num1 > num2:
             resultado.config(text=f"El número {num1} es mayor que {num2}")
         elif num1 < num2:

@@ -12,7 +12,7 @@ def saludar():
 # Crear la ventana principal
 ventana = tk.Tk()
 ventana.title("Saludador")
-ventana.geometry("300x150")  # Tamaño de la ventana (ancho x alto)
+ventana.geometry("300x200")  # Tamaño de la ventana (ancho x alto)
 
 # Crear un Frame para organizar los widgets
 marco = tk.Frame(ventana)

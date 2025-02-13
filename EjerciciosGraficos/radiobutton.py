@@ -1,3 +1,7 @@
+import tkinter as tk
+
+ventana = tk.Tk()
+ventana.title("Mi primera interfaz gráfica")
 def mostrar_opcion():
     print(f"Opción seleccionada: {radio_var.get()}")
 
@@ -6,3 +10,4 @@ radio1 = tk.Radiobutton(ventana, text="Opción 1", variable=radio_var, value="Op
 radio2 = tk.Radiobutton(ventana, text="Opción 2", variable=radio_var, value="Opción 2", command=mostrar_opcion)
 radio1.pack()
 radio2.pack()
+ventana.mainloop()

@@ -7,9 +7,18 @@ diccionario={
 }
 
 
-for (nombre,poblacion) in diccionario.items():
+lista_paises= list(diccionario.items())
 
-    print(f"{nombre}:{sorted(poblacion)}")
+# Ordenar la lista de tuplas manualmente por población de mayor a menor
+for i in range(len(lista_paises)):
+    for j in range(i + 1, len(lista_paises)):
+        if lista_paises[i][1] < lista_paises[j][1]:
+            lista_paises[i], lista_paises[j] = lista_paises[j], lista_paises[i]
+
+diccionario_ordenado = dict(lista_paises)
+for pais, poblacion in diccionario_ordenado.items():
+    print(f"{pais}: {poblacion}")
+
 
     
 

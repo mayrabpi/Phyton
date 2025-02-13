@@ -24,9 +24,13 @@ entrada2.grid(row=0, column=1, padx=10, pady=10)
 boton_sumar = tk.Button(ventana, text="Sumar", command=calcular_suma)
 boton_sumar.grid(row=1, column=0, columnspan=2, pady=10)
 
-# Crear etiqueta para mostrar el resultado
-resultado = tk.Label(ventana, text="Resultado: ")
-resultado.grid(row=2, column=0, columnspan=2, pady=10)
+# Crear un Frame para el resultado
+frame_resultado = tk.Frame(ventana, borderwidth=2, relief="sunken")
+frame_resultado.grid(row=2, column=0, columnspan=2, padx=10, pady=10, sticky="ew")
+
+# Crear etiqueta para mostrar el resultado dentro del Frame
+resultado = tk.Label(frame_resultado, text="Resultado: ")
+resultado.pack(padx=10, pady=10)
 
 # Iniciar el bucle principal de la ventana
 ventana.mainloop()

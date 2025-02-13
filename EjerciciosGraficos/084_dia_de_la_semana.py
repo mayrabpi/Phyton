@@ -27,7 +27,7 @@ def dia_semana():
 ventana = tk.Tk()
 ventana.title("Dia de semana")
 
-# Crear cuadro de entrada para Celsius
+# Crear cuadro de entrada 
 entrada_dia = tk.Entry(ventana)
 entrada_dia.grid(row=0, column=0, padx=10, pady=10)
 
