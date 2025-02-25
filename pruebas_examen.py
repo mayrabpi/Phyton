@@ -15,7 +15,7 @@ numeros = {
 print(numeros)
 
 for i,j in numeros.items():
-    print(i,j)
+    print(j,i)
 
 for i in numeros.keys():
     print(i)

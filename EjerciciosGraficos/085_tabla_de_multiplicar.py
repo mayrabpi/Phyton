@@ -2,10 +2,11 @@ import tkinter as tk
 
 def tabla_multiplicar():
     try:
-        numero = int(entrada_numero.get())
-        resultado.config(text="Tabla de multiplicar de " + str(numero))
-        for i in range(1, 11):
-            resultado.config(text=resultado.cget("text") + f"\n{numero} x {i} = {numero * i}")
+       numero = int(entrada_numero.get())
+       texto_tabla=" "
+       for i in range(1,11):
+           texto_tabla += f"\n{numero}x{i}={numero*i}"
+           resultado.config(text=texto_tabla)
     except ValueError:
         resultado.config(text="¡Ingresa un número válido!")
 

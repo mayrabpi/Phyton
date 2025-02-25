@@ -20,6 +20,7 @@ for i in mates:
     if i in ciencias:
         calificaciones_combinadas[i]={"Matemáticas ": mates[i], 
                                       "ciencias ":ciencias[i]}
+
 #muestra el nuevo diccionario con las calificaciones combinadas       
 for i,j in calificaciones_combinadas.items():
     print(i,j)

@@ -7,3 +7,5 @@ for empleado, edad in diccionario.items():
         empleados_mayores[empleado] = edad
         
 print(empleados_mayores)
+
+
